@@ -2,6 +2,7 @@
 a 1:5 netflix site clone for blogspot.
 
 Entire site runs on shortcodes:
+```json
 [metadata]
 {
   "Title": " FIELD ",
@@ -53,7 +54,7 @@ Entire site runs on shortcodes:
   }
 }
 [/media]
-
+```
 the meta data is used for displaying information in the Info card. where as media shortcode is used to show media on a player. supports next nad previous, play throuh info card, supports resume. 
 supports instant search. no page refrash on opening watching video.
 it was vibe coded BUT only the hover part which I couldnt do myself (but still Ai fucked it) so make a PR. that is my best shot at it.
